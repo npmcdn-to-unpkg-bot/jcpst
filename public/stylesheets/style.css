@@ -1,0 +1,31 @@
+body {
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+	list-style: circle;
+	padding-left: 15px;
+}
+
+.small{
+	font-size: small;
+}
+
+#footer {
+  color: #666;
+}
+
+@media screen and (min-width: 650px){
+	body {
+		background-image: url(../images/2.PNG);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
