@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
 ul {
@@ -17,7 +17,7 @@ ul {
 }
 
 #footer {
-  color: #666;
+    color: #666;
 }
 
 @media screen and (min-width: 650px){
