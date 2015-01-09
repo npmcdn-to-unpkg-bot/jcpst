@@ -3,8 +3,17 @@ body {
   	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 a {
   color: #00B7FF;
+=======
+a, a:active, a:hover {
+    color: #963;
+}
+
+a:visited {
+	color: #693;
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
 }
 
 ul {
@@ -12,12 +21,20 @@ ul {
 	padding-left: 15px;
 }
 
+<<<<<<< HEAD
 .small{
+=======
+.small {
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
 	font-size: small;
 }
 
 #footer {
+<<<<<<< HEAD
   color: #666;
+=======
+    color: #666;
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
 }
 
 @media screen and (min-width: 650px){
@@ -28,4 +45,8 @@ ul {
 		background-attachment: fixed;
 		background-size: cover;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
