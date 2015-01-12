@@ -15,15 +15,31 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
+<<<<<<< HEAD
+//app.use(favicon(__dirname + '/public/favicon.ico'));
+=======
 app.use(favicon(__dirname + '/public/favicon.ico'));
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+<<<<<<< HEAD
+app.use(express.static(path.join(__dirname, 'markdown')));
+// Add functionality to read .md files from directory,
+// push through a template and create a pretty route
+
+app.use('/', routes);
+app.use('/music', routes);
+app.use('/about', routes);
+app.use('/contact', routes);
+//app.use('/users', users);
+=======
 
 app.use('/', routes);
 app.use('/users', users);
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

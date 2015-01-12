@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+node_modules/
+npm-debug.log
+.idea/
+.bash_history
+=======
 public/md
 node_modules/
 npm-debug.log
 .idea/
+>>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
