@@ -2,11 +2,7 @@
 var debug = require('debug')('jcpst');
 var app = require('../app');
 
-<<<<<<< HEAD
-app.set('port', process.env.PORT || 80);
-=======
 app.set('port', process.env.PORT || 3000);
->>>>>>> c2c3846489e15ca5b13cd1b6497383c8635b1f77
 
 var server = app.listen(app.get('port'), function() {
   debug('Express server listening on port ' + server.address().port);
