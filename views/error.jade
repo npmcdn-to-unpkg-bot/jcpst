@@ -3,6 +3,5 @@ extends layout
 block content
   h1= message
   h2= error.status
-    |  | Return to 
-    a(href='http://jcpst.com') jcpst.com
+  h2: a(href='http://jcpst.com') jcpst.com
   pre #{error.stack}

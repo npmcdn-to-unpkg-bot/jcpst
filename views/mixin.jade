@@ -1,0 +1,8 @@
+mixin a(name, url)
+  a(target="_blank" href=url) #{name}
+
+mixin list(header, links)
+  h3= header
+  ul
+    each link in links
+      li: +a(link.name, link.url)

@@ -1,25 +1,7 @@
 extends layout
-
 block content
-  h1 joseph post
-  em software developer, music producer
-  br
-  a(href='mailto:jp@jsphpst.com') email
-  |  | 
-  a(target='_blank' href='/pgp') public key
-  |  | 
-  a(target='_blank' href='https://gitlab.com/jcpst/jcpst/tree/master') source
-  p last update: jan 18 2015 
-  
+  include mixin.jade
+  include header.jade
   include interests.jade
-  include about.jade
   include links.jade
-  include software.jade
-  include music-credits.jade
-
-  #footer
-    em: h5 thanks for visting.
-  pre.               
-    . _ _  _|_ 
-    |(_|_)_)|_ 
-    /  |       
+  include footer.jade
