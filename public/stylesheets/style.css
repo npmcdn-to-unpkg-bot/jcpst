@@ -24,11 +24,11 @@ ul {
     color: #666;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 698px){
 	body {
         /*padding: 10px 150px;*/
-		background-image: url(../images/2.PNG);
-		background-position: center center;
+		background-image: url(../images/joefresco.jpg);
+		/*background-position: center center;*/
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
