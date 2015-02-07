@@ -10,6 +10,8 @@ app.set('view engine', 'jade');
 app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
+app.use('/credits', routes);
+app.use('/software', routes);
 
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
