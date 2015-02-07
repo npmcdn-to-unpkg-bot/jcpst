@@ -2,3 +2,5 @@ public/md
 node_modules/
 npm-debug.log
 .idea/
+
+public/music
