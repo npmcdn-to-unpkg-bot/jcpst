@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "deploy": "docker build --tag jcpst .; docker run -p 3000:3000 -d jcpst"
   },
   "dependencies": {
     "express": "~4.9.0",
