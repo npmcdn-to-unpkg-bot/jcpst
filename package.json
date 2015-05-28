@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "deploy": "docker build --tag jcpst .; docker run -p 3000:3000 -d jcpst"
+    "deploy": "npm run deploy:build -s && npm run deploy:run -s",
+    "deploy:build": "docker build --tag jcpst .",
+    "deploy:run": "docker run -p 3000:3000 -d jcpst",
+    "build": "marked -o public/about/index.html -i prose/about.md"
   },
   "dependencies": {
     "express": "~4.9.0",
