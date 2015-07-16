@@ -1,34 +1,6 @@
-body { 
-  margin:0 auto;
-  max-width:750px;
-  padding:30px; 
-}
-
-a { 
-  color:#363
-}
-
-a:hover {
-  text-decoration:none
-}
-
-em {
-  color:#666
-}
-
-pre {
-  white-space:pre-wrap
-}
-
-code {
-  background:#ececec
-}
-
-hr {
-  border:1px solid #ddd
-}
-
-img {
-  max-width:100%
-}
+body { margin:      0 auto;
+       max-width:   750px;   }
+pre  { white-space: pre-wrap }
+code { background:  #ececec  }
+img  { max-width:   100%     }
 

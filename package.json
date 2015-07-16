@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "build": "marked -o public/about/index.html -i prose/about.md",
     "deploy": "npm run deploy:build -s && npm run deploy:run -s",
     "deploy:build": "docker build --tag jcpst .",
     "deploy:run": "docker run -p 3000:3000 -d jcpst",
-    "build": "marked -o public/about/index.html -i prose/about.md"
+    "prod": "pm2 start ./bin/www",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "debug": "~2.0.0",

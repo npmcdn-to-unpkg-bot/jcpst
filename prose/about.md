@@ -4,7 +4,7 @@
 
 I'm a composer and programmer in Kansas City.
 
-#### Background / Braggadocio
+### Background / Braggadocio
 
 I got my first bass guitar in 1996. Then formed bands, cut records, and toured 
 the US a few times. I earned a B.M. and wrote music that was featured at the 
