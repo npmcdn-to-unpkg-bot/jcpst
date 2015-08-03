@@ -1,0 +1,20 @@
+{
+  "destination": "public",
+  "metadata": {
+    "site": {
+      "title": "jcpst.com",
+      "url": "jcpst.com",
+      "author": "Joseph Post"
+    }
+  },
+  "plugins": {
+    "metalsmith-markdown": true,
+    "metalsmith-collections": {},
+    "metalsmith-permalinks": ":title",
+    "metalsmith-layouts": "jade",
+    "metalsmith-feed": {
+      "collection": "articles"
+    }
+  }
+}
+

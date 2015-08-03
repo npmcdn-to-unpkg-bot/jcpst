@@ -1,4 +1,5 @@
 FROM mhart/alpine-iojs-base
-COPY . /jcpst
-EXPOSE 3000
-CMD [ "iojs", "/jcpst/bin/www" ]
+COPY . /public
+EXPOSE 8080
+CMD [ "./node_modules/http-server/bin/http-server" ]
+
