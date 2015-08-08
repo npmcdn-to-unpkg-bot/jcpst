@@ -17,9 +17,8 @@ Society of Composer's national conference. After college, I recorded music for
 seven years, everything from the Avett Bros to Gillie Da Kid.
 
 I started burning-out on recording and became obsessed with programming. These
-days I'm working as a consultant, bringing modern web technologies to enterprise
-applications. I'm most interested in node, functional programming, build
-scripts, linux and open-source.
+days I'm working as a consultant. I like node, functional programming, shell 
+scripting, and Arch Linux.
 
 ![joe](../assets/joefresco.jpg)
 
