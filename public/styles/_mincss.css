@@ -1,0 +1,129 @@
+/* Copyright 2014 Owen Versteeg; MIT licensed */
+/* Some styl-ification by css2stylus.com */
+/* Redacted by Joseph Post */
+.smooth {
+  transition: all 0.2s;
+}
+.container {
+  margin: 0 20px;
+  width: auto;
+}
+label > * {
+  display: inline;
+}
+form > * {
+  display: block;
+  margin-bottom: 10px;
+}
+.row {
+  margin: 1% 0;
+  overflow: auto;
+}
+.col {
+  float: left;
+}
+.table {
+  width: 100%;
+}
+.c1 {
+  width: 8.3333333333333%;
+}
+.c2 {
+  width: 16.6666666666666%;
+}
+.c3 {
+  width: 24.9999999999999%;
+}
+.c4 {
+  width: 33.3333333333332%;
+}
+.c5 {
+  width: 41.6666666666665%;
+}
+.c6 {
+  width: 49.9999999999998%;
+}
+.c7 {
+  width: 58.3333333333331%;
+}
+.c8 {
+  width: 66.6666666666664%;
+}
+.c9 {
+  width: 74.9999999999997%;
+}
+.c10 {
+  width: 83.333333333333%;
+}
+.c11 {
+  width: 91.6666666666663%;
+}
+.c12 {
+  width: 99.9999999999996%;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+.ico {
+  font: 33px Arial Unicode MS, Lucida Sans Unicode;
+}
+textarea,
+input,
+select {
+  outline: 0;
+  font-size: 14px;
+}
+textarea,
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  border-color: #5ab;
+}
+textarea,
+input[type=text] {
+  -webkit-appearance: none;
+  width: 13em;
+}
+@media (min-width: 1310px) {
+  .container {
+    margin: auto;
+    width: 1270px;
+  }
+}
+@media (max-width: 870px) {
+  .row,
+  .col {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .btn.btn-close {
+    display: block;
+  }
+  a {
+    padding: 0.5em 0;
+    display: block;
+    width: 50%;
+  }
+}
+.table th,
+.table td {
+  padding: 0.5em;
+  text-align: left;
+}
+.table tbody > :nth-child(2n-1) {
+  background: #ddd;
+}
+.msg {
+  padding: 1.5em;
+  background: #def;
+  border-left: 5px solid #59d;
+}

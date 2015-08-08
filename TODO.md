@@ -8,3 +8,7 @@
 * fix layouts
 * add content
 
+---
+
+FIX YAML Metadata (May need to use JSON)
+

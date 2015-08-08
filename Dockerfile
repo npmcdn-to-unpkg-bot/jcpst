@@ -1,5 +1,5 @@
-FROM mhart/alpine-iojs-base
-COPY . /public
+FROM mhart/alpine-iojs
+COPY . .
 EXPOSE 8080
-CMD [ "./node_modules/http-server/bin/http-server" ]
+CMD [ "npm" "start" ]
 

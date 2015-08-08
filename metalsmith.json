@@ -8,13 +8,18 @@
     }
   },
   "plugins": {
+    "metalsmith-metadata": {
+      "credits": "config/credits.yaml",
+      "links": "config/links.yaml"
+    },
     "metalsmith-markdown": true,
     "metalsmith-collections": {},
     "metalsmith-permalinks": ":title",
-    "metalsmith-layouts": "jade",
     "metalsmith-feed": {
       "collection": "articles"
-    }
+    },
+    "metalsmith-layouts": "jade",
+    "metalsmith-stylus": {}
   }
 }
 
