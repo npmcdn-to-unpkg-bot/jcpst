@@ -5,5 +5,5 @@ html
     meta(name='viewport' content='width=device-width,user-scalable=no')
     link(rel="stylesheet" href="styles/style.css")
   body
-    != partial('_header.md')
-    != yield
+    .row.col.c12!= partial('_header.md')
+    .row.col.c12!= yield
