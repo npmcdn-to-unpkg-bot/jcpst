@@ -1,4 +1,4 @@
-built with (harp)[http://harpjs.com/]
+built with [harp](http://harpjs.com/)
 
     git clone https://gitlab.com/jcpst/jcpst.git
     cd jcpst
