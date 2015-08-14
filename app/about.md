@@ -1,10 +1,3 @@
----
-collection: articles
-date: 2015-08-01
-layout: article.jade
-title: About
----
-
 ### About
 
 I'm a composer and programmer in Kansas City.
@@ -20,5 +13,5 @@ I started burning-out on recording and became obsessed with programming. These
 days I'm working as a consultant. I like node, functional programming, shell 
 scripting, and Arch Linux.
 
-![joe](../assets/joefresco.jpg)
+![joe](../images/joefresco.jpg)
 

@@ -1,8 +1,3 @@
----
-title: Pgp
-collection: articles
----
-
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v2
 
