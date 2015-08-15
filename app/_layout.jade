@@ -3,12 +3,17 @@ html
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width,user-scalable=no')
-    link(rel="stylesheet" href="styles/style.css")
+    link(rel="stylesheet" href="/styles/style.css")
   body
     .container
       .row
-        .col.c3!= partial('_header.md')
-          != partial('_nav.md')
+        .col.c3
+          h1: a(href='/') Joseph Post
+          p: a(href='/music') music
+          P: a(href='/blog') blog
+          p: a(href='/about') about
+          p: a(href='mailto:joe@jcpst.com') email
+          p: a(href='/pgp.txt') pub key
         .col.c9
           br
           != yield
