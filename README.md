@@ -10,7 +10,7 @@ dev:
 
     npm start
 
-deploy:
+prod:
 
     npm run build
     npm run static
