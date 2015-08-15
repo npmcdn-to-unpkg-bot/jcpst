@@ -5,5 +5,11 @@ html
     meta(name='viewport' content='width=device-width,user-scalable=no')
     link(rel="stylesheet" href="styles/style.css")
   body
-    .row.col.c12!= partial('_header.md')
-    .row.col.c12!= yield
+    .container
+      .row
+        .col.c3!= partial('_header.md')
+          != partial('_nav.md')
+        .col.c9
+          br
+          != yield
+
