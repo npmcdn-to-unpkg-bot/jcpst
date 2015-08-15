@@ -1,4 +1,6 @@
-built with [harp](http://harpjs.com/)
+_built with [harp](http://harpjs.com/)_
+
+getting started:
 
     git clone https://gitlab.com/jcpst/jcpst.git
     cd jcpst
@@ -12,6 +14,10 @@ deploy:
 
     npm run build
     npm run static
+
+clean build directory:
+
+    npm run clean
 
 list availble npm scripts:
 
