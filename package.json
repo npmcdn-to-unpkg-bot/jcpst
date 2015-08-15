@@ -4,13 +4,17 @@
   "description": "",
   "scripts": {
     "build": "harp compile app build",
-    "clean": "rm -r build",
-    "start": "harp server app"
+    "clean": "rimraf build",
+    "start": "harp server app",
+    "static": "http-server build"
   },
   "keywords": [],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
   "license": "ISC",
+  "repository": "gitlab:jcpst/jcpst",
   "dependencies": {
-    "harp": "^0.17.0"
+    "harp": "^0.17.0",
+    "http-server": "^0.8.0",
+    "rimraf": "^2.4.2"
   }
 }
