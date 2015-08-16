@@ -15,11 +15,11 @@ prod:
     npm run build
     npm run static
 
-clean build directory:
+docker:
 
-    npm run clean
+    npm run docker
 
-list availble npm scripts:
+list all availble `package.json` scripts:
 
     npm run
 
