@@ -10,7 +10,6 @@ dev:
 
 prod:
 
-    npm run build
     npm run static
 
 docker:
