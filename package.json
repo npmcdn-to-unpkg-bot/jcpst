@@ -8,10 +8,12 @@
     "docker": "npm run docker:build -s && npm run docker:run -s",
     "start": "harp server app",
     "static": "http-server build",
+    "prebuild": "npm run clean -s",
     "predocker:build": "npm run clean -s && npm run build -s",
     "docker:build": "docker build -q -t jcpst .",
     "predocker:run": "docker rm -f jcpst >/dev/null 2>&1 || echo",
-    "docker:run": "docker run -d --name='jcpst' -p 8080:8080 jcpst"
+    "docker:run": "docker run -d --name='jcpst' -p 8080:8080 jcpst",
+    "prestatic": "npm run build -s"
   },
   "keywords": [],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
