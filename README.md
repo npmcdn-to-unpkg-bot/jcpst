@@ -1,5 +1,3 @@
-_built with [harp](http://harpjs.com/)_
-
 getting started:
 
     git clone https://gitlab.com/jcpst/jcpst.git
@@ -23,3 +21,4 @@ list all availble `package.json` scripts:
 
     npm run
 
+_built with [harp](http://harpjs.com/)_
