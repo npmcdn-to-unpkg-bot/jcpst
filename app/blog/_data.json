@@ -1,4 +1,9 @@
 {
+  "gulp-vs-metalsmith": {
+    "title": "Gulp vs Metalsmith",
+    "tags": ["tutorial", "shootout"],
+    "date": "2015-08-17"
+  },
   "using-harp": {
     "title": "Using Harp",
     "tags": ["review"],
