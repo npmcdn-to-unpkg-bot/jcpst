@@ -1,7 +1,12 @@
 {
+  "deployment": {
+    "title": "Deployment",
+    "tags": ["build", "shell"],
+    "date": "2015-08-19"
+  },
   "gulp-vs-metalsmith": {
     "title": "Gulp vs Metalsmith",
-    "tags": ["tutorial", "shootout"],
+    "tags": ["build", "shootout"],
     "date": "2015-08-19"
   },
   "using-harp": {
