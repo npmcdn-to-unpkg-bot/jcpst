@@ -8,7 +8,7 @@
     "docker": "npm run docker:build -s && npm run docker:run -s",
     "start": "harp server app",
     "static": "http-server build",
-    "docker:build": "[[ $(git diff --shortstat 2> /dev/null | tail -n1) != \"\" ]] && docker build -q -t jcpst .",
+    "docker:build": "docker build -q -t jcpst .",
     "docker:run": "docker run -d --name='jcpst' -p 8080:8080 jcpst",
     "prebuild": "npm run clean -s",
     "predocker:build": "npm run clean -s && npm run build -s",

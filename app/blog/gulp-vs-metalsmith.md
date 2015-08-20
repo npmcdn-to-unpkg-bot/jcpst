@@ -1,7 +1,5 @@
 ## Gulp vs Metalsmith
 
-[TOC]
-
 ##### 2015-08-16
 
 In my last blog post, I said that if I wanted to use a streaming build tool with 

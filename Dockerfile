@@ -2,7 +2,7 @@ FROM mhart/alpine-node
 ENV NODE_ENV=production
 WORKDIR /jcpst
 ADD build/ .
-RUN npm install
+RUN npm install -g http-server
 EXPOSE 8080
-CMD ["npm" "run" "static"]
+CMD ["http-server"]
 
