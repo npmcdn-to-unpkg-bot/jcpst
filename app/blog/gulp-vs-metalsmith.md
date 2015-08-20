@@ -1,6 +1,6 @@
 ## Gulp vs Metalsmith
 
-##### 2015-08-16
+##### 2015-08-19
 
 In my last blog post, I said that if I wanted to use a streaming build tool with 
 functionality via plugins, I would rather use [Gulp][] over [Metalsmith][]. I
