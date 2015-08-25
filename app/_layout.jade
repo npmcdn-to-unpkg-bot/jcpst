@@ -20,7 +20,7 @@ html
           br
           if current.path[0] == 'blog' && current.source !== 'index'
             h3= title
-            p= date
+            em= date
             != yield
             strong %%%
           else
