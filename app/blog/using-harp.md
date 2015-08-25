@@ -1,7 +1,3 @@
-## Using Harp
-
-##### 2015-08-14
-
 I've switched frameworks a few times with this website recently. 
 
 For a long time it was an [Express][] app, not too different from the one the 

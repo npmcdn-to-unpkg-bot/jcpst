@@ -1,7 +1,3 @@
-## Gulp vs Metalsmith
-
-##### 2015-08-19
-
 In my last blog post, I said that if I wanted to use a streaming build tool with 
 functionality via plugins, I would rather use [Gulp][] over [Metalsmith][]. I
 had a request from [Ev][] to write a post comparing the two, and it sounded like
@@ -27,10 +23,9 @@ out [Gulpsmith][].
 
 [Gulpsmith]: https://www.npmjs.com/package/gulpsmith
 
+#### Metalsmith
 
-### Metalsmith
-
-Metalsmith is pretty great at what it does. Add some files to a folder, install some 
+Metlasmith is pretty great at what it does. Add some files to a folder, install some 
 plugins, and Metalsmith will transform and copy the files over for you. There are 
 two ways to use Metalsmith. One way is programmatically (like Ev's [Metalwork][] 
 setup), another is with a configuration file called `metalsmith.json`. I prefer the 
@@ -46,7 +41,7 @@ before with no issues, and even shared metadata with the rest of the app.
 [Loopback]: http://loopback.io/
 
 
-### Gulp
+#### Gulp
 
 Gulp is a bit of a different beast. Where Metalsmith specializes in processing
 a directory of files, Gulp is a full blown build tool. You can automate
@@ -72,10 +67,10 @@ In the case of the 'default' task, you only need to type `gulp`.
 The array contains the tasks that need to be completed before this task runs.
 Dependent tasks run asynchronously. 
 
-### npm?
+#### npm
 
 Who said anything about npm? I'm going to mention it because it's my favorite node
-tool. 
+tool.
 
 You can run Gulp with npm. Or Metalsmith. Or any node module. Or any shell
 command. It's just shell scripts. When you install an npm module, it
@@ -115,4 +110,3 @@ little bit before I decided to use [Harp][].
 
 Who wins? npm of course.
 
-**%%%**

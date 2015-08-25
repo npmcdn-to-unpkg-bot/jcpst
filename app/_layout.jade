@@ -18,5 +18,11 @@ html
           p: a(href='/pgp.txt') pub key
         .col.c9
           br
-          != yield
+          if current.path[0] == 'blog' && current.source !== 'index'
+            h3= title
+            p= date
+            != yield
+            strong %%%
+          else
+            != yield
 

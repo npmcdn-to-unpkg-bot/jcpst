@@ -1,7 +1,3 @@
-## Deployment
-
-##### 2015-08-19
-
 I like automating things, and I like deploying applications. Fortunately, I get
 to do a lot of this.
 
@@ -24,9 +20,6 @@ directory, then `npm run build`... builds. Then I copy the fresh build onto my
 remote server. I already have [http-server][] running using [forever][]. I don't
 need to stop it and the site updates with almost zero downtime.
 
-**%%%**
-
 [http-server]: https://www.npmjs.com/package/http-server
 [forever]: https://www.npmjs.com/package/forever
-
 
