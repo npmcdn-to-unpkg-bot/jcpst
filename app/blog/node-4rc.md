@@ -15,7 +15,7 @@ After that, you'll need to unpack it
 tar -xvf node-v4.0.0-rc.1-linux-x64.tar.gz
 ```
 
-and copy the folder to `.nvm/versions/node/v4.0.0-rc.1` (or wherever you have
+and copy the folder to `~/.nvm/versions/node/v4.0.0-rc.1` (or wherever you have
 nvm installed)
 
 Type `nvm use 4`
