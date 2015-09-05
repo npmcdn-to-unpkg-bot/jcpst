@@ -10,19 +10,19 @@ html
     .container
       .row
         .col.c3
-          h1: a(href='/') Joseph Post
-          p: a(href='/music') music
-          P: a(href='/blog') blog
-          p: a(href='/about') about
-          p: a(href='mailto:joe@jcpst.com') email
-          p: a(href='/pgp.txt') pub key
+          h1.name: a(href='/') Joseph Post
+          a.nav(href='/music') music
+          a.nav(href='/blog') blog
+          a.nav(href='/about') about
+          a.nav(href='mailto:joe@jcpst.com') email
+          a.nav(href='/pgp.txt') pub key
         .col.c9
-          br
-          if current.path[0] == 'blog' && current.source !== 'index'
-            h3= title
-            em= date
-            != yield
-            strong %%%
-          else
-            != yield
+          .content
+            if current.path[0] == 'blog' && current.source !== 'index'
+              h3= title
+              em= date
+              != yield
+              strong %%%
+            else
+              != yield
 

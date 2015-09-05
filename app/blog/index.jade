@@ -1,5 +1,8 @@
-h3 Weblog
-p: a(href='/blog/feed.xml') rss
+br(style='margin-top:0.5em')
+h3(style='display:inline') Weblog
+| &nbsp;
+a.rss(href='/blog/feed.xml') rss
+h1
 table.table
     for post, slug in public.blog._data
       tr
