@@ -12,3 +12,4 @@
 [monitors]: http://monitors.bandcamp.com/
 [senator bigsby]: http://sbats.bandcamp.com/
 
+[Recording Credits](/credits)

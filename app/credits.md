@@ -1,4 +1,4 @@
-### Rappers / Producers I've worked with.
+### Rappers I've worked with.
 
 * Black Chill
 * "Boo" Sledge
@@ -7,13 +7,19 @@
 * Lid Bux
 * Melo
 * Metro Boomin
-* Rug (Batcave Studio)
-* Sonny Digital
 * Star B
 * Tamba Hali
 * "Tank" Tyler
 
-### Bands I've recorded.
+### Producers I've worked with.
+
+* Colin Mahoney (Get Up Kids)
+* Joe Comparato (The Urge)
+* Pete Matthews (B-52's, George Thorogood)
+* Rug (Meek Mill, Gillie Da Kid)
+* Sonny Digital (Kanye West, Ace Hood, Future, 2 Chainz, Wiz Khalifa)
+
+### Bands / Musicians I've recorded.
 
 * Buckethead
 * Galactic
@@ -23,6 +29,7 @@
 * Jacob Fred Jazz Odyssey
 * Mountain Sprout
 * Railroad Earth
+* Scott Tichenor (creator of [mandolincafe.com](http://www.mandolincafe.com/))
 * Secret Chiefs 3
 * Shearing Pinx
 * Son Volt
