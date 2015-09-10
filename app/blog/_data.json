@@ -1,9 +1,4 @@
 {
-  "node-4rc": {
-    "title": "Get Node 4 Right Now",
-    "tags": ["node", "tutorial"],
-    "date": "2015-09-05"
-  },
   "deployment": {
     "title": "Deployment",
     "tags": ["build", "shell"],
@@ -20,6 +15,7 @@
     "date": "2015-08-14"
   },
   "feed": {
+    "title": "feed",
     "layout": false
   }
 }

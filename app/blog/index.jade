@@ -4,8 +4,9 @@ h3(style='display:inline') Weblog
 a.rss(href='/blog/feed.xml') rss
 h1
 table.table
-    for post, slug in public.blog._data
-      tr
-        td: a(href="/blog/#{slug}")= post.title
-        td= post.date
+	for post, slug in public.blog._data
+		unless post.title == 'feed'
+			tr
+				td: a(href="/blog/#{slug}")= post.title
+				td= post.date
 
