@@ -1,28 +1,27 @@
 doctype html
 html
-  head
-    meta(charset='UTF-8')
-    meta(name='viewport' content='width=device-width,user-scalable=no')
-    link(rel="stylesheet" href="/assets/styles/style.css")
-    link(rel='stylesheet' href='/assets/lib/prism.css')
-    script(src='/assets/lib/prism.js')
-  body
-    .container
-      .row
-        .col.c3
-          h1.name: a(href='/') Joseph Post
-          a.nav(href='/music') music
-          a.nav(href='/blog') blog
-          a.nav(href='/about') about
-          a.nav(href='mailto:joe@jcpst.com') email
-          a.nav(href='/pgp.txt') pub key
-        .col.c9
-          .content
-            if current.path[0] == 'blog' && current.source !== 'index'
-              h3= title
-              em= date
-              != yield
-              strong %%%
-            else
-              != yield
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width,user-scalable=no')
+		link(rel="stylesheet" href="/assets/styles/style.css")
+		link(rel='stylesheet' href='/assets/lib/prism.css')
+		script(src='/assets/lib/prism.js')
+	body
+		h1 Joseph Post
+		a(href='/music') music
+		|  || 
+		a(href='/blog') blog
+		|  || 
+		a(href='/about') about
+		|  || 
+		a(href='mailto:joe@jcpst.com') email
+		|  || 
+		a(href='/pgp.txt') pub key
+		if current.path[0] == 'blog' && current.source !== 'index'
+			h3= title
+			em= date
+			!= yield
+			strong %%%
+		else
+			!= yield
 
