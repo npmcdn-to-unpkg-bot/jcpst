@@ -1,4 +1,9 @@
 {
+  "npm-scala": {
+    "title": "Scala (.scl) to MIDI note frequencies",
+    "tags": [ "tools", "node"],
+    "date" : "2015-09-12"
+  },
   "deployment": {
     "title": "Deployment",
     "tags": ["build", "shell"],
