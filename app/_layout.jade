@@ -4,8 +4,12 @@ html
 		meta(charset='UTF-8')
 		meta(name='viewport' content='width=device-width,user-scalable=no')
 		link(rel="stylesheet" href="/assets/styles/style.css")
-		link(rel='stylesheet' href='/assets/lib/prism.css')
-		script(src='/assets/lib/prism.js')
+		
+		//- No need for syntax highlighting if the client is not reading the blog.
+		if current.path[0] == 'blog' && current.source !== 'index'
+			link(rel='stylesheet' href='/assets/lib/prism.css')
+			script(src='/assets/lib/prism.js')
+
 	body
 		h1: a(href='/' style='text-decoration:none') Joseph Post
 		a(href='/music') music
@@ -17,6 +21,8 @@ html
 		a(href='/links') links
 		|  || 
 		a(href='/contact') contact
+
+		//- Formatting for blog posts.
 		if current.path[0] == 'blog' && current.source !== 'index'
 			h3= title
 			em= date
