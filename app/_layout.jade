@@ -12,15 +12,12 @@ html
 
 	body
 		h1: a(href='/' style='text-decoration:none') Joseph Post
-		a(href='/music') music
-		|  || 
-		a(href='/blog') blog
-		|  || 
-		a(href='/about') about
-		|  || 
-		a(href='/links') links
-		|  || 
-		a(href='/contact') contact
+		div.
+			#[a(href='/music') music]
+			|| #[a(href='/blog') blog]
+			|| #[a(href='/about') about]
+			|| #[a(href='/links') links]
+			|| #[a(href='/contact') contact]
 
 		//- Formatting for blog posts.
 		if current.path[0] == 'blog' && current.source !== 'index'
