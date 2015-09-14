@@ -1,0 +1,16 @@
+{
+  "links": {
+    "Programming": {
+      "ArchWiki": "https://wiki.archlinux.org/",
+      "Bash Reference Manual": "https://www.gnu.org/software/bash/manual/bashref.html",
+      "DevDocs": "http://devdocs.io/",
+      "Regex101": "https://regex101.com/",
+      "ShellCheck": "http://www.shellcheck.net/",
+      "StackEdit": "https://stackedit.io/"
+    },
+    "Music": {
+      "SuperCollider": "http://supercollider.github.io/",
+      "TapeOp": "http://tapeop.com/"
+    }
+  }
+}

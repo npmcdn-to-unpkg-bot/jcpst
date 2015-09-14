@@ -1,0 +1,13 @@
+h3 Links
+
+mixin parseObject(obj)
+	ul
+		each val, key in obj
+			if typeof val === 'string'
+				li: a(href= val)= key
+			else if typeof val === 'object'
+				li: strong= key
+				+parseObject(val)
+
++parseObject(public._data.links)
+
