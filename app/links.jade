@@ -2,14 +2,18 @@ h3 Links
 
 p Hopefully this page will be wild and sprawling over time.
 
+//- Recursively convert json object to HTML list.
 mixin parseObject(obj)
-	ul
-		each val, key in obj
-			if typeof val === 'string'
-				li: a(href= val)= key
-			else if typeof val === 'object'
-				li: strong= key
-				+parseObject(val)
+	each val, key in obj
+		if typeof val === 'string'
+			li: a(href= val)= key
+		else if typeof val === 'object'
+			li
+				strong= key
+				ul
+					+parseObject(val)
 
-+parseObject(public._data.links)
+//- Generate links with category hierarchy.
+ul
+	+parseObject(public._data.links)
 
