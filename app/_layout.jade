@@ -3,8 +3,15 @@ html
 	head
 		meta(charset='UTF-8')
 		meta(name='viewport' content='width=device-width,user-scalable=no')
-		link(rel="stylesheet" href="/assets/styles/style.css")
-		
+
+		//- There is so little styling that I'll just save the extra
+		//- HTTP request and they can live in here.
+		style.
+			a,a:active,a:hover,a:visited{color:black;}
+			body{background:lemonchiffon;max-width:700px;}
+			img{width 100%;}
+			.light{font-weight:300;}
+
 		//- No need for syntax highlighting if the client is not reading the blog.
 		if current.path[0] == 'blog' && current.source !== 'index'
 			link(rel='stylesheet' href='/assets/lib/prism.css')
@@ -21,7 +28,7 @@ html
 
 		//- Formatting for blog posts.
 		if current.path[0] == 'blog' && current.source !== 'index'
-			h3= title
+			h2= title
 			em= date
 			!= yield
 			strong %%%
