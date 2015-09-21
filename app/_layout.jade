@@ -9,8 +9,8 @@ html
 		style.
 			a,a:active,a:hover,a:visited{color:black;}
 			body{background:lemonchiffon;max-width:700px;}
-			img{width 100%;}
-			.light{font-weight:300;}
+			img{max-width:100%;}
+			.top{padding-top:5px;border-top:solid 1px;}
 
 		//- No need for syntax highlighting if the client is not reading the blog.
 		if current.path[0] == 'blog' && current.source !== 'index'
