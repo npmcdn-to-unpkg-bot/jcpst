@@ -8,6 +8,7 @@
     "docker": "npm run docker:build -s && npm run docker:run -s",
     "start": "harp server app",
     "static": "http-server build",
+    "deploy": "harp compile app /tmp/__temp_static_content",
     "docker:build": "docker build -q -t jcpst .",
     "docker:run": "docker run -d --name='jcpst' -p 8080:8080 jcpst",
     "prebuild": "npm run clean -s",
@@ -18,7 +19,7 @@
   "keywords": [],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
   "license": "ISC",
-  "repository": "gitlab:jcpst/jcpst",
+  "repository": "jcpst/jcpst",
   "dependencies": {
     "http-server": "^0.8.0"
   },

@@ -11,8 +11,8 @@ html
 			body{background:lemonchiffon;max-width:700px;}
 			img{max-width:100%;}
 			.top{padding-top:5px;border-top:solid 1px;}
+			#ul-base{padding-left:0;}
 
-		//- No need for syntax highlighting if the client is not reading the blog.
 		if current.path[0] == 'blog' && current.source !== 'index'
 			link(rel='stylesheet' href='/assets/lib/prism.css')
 			script(src='/assets/lib/prism.js')
@@ -26,7 +26,6 @@ html
 			|| #[a(href='/links') links]
 			|| #[a(href='/contact') contact]
 
-		//- Formatting for blog posts.
 		if current.path[0] == 'blog' && current.source !== 'index'
 			h2= title
 			em= date
