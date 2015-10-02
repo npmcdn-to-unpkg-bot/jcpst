@@ -1,8 +1,4 @@
-h3 Links
-
-p Hopefully this page will be wild and sprawling over time.
-
-//- Recursively convert json object to HTML list.
+//- We want a hierarchy of categories and links.
 mixin parseObject(obj)
 	each val, key in obj
 		if typeof val === 'string'
@@ -10,10 +6,8 @@ mixin parseObject(obj)
 		else if typeof val === 'object'
 			li
 				strong= key
-				ul
-					+parseObject(val)
+				ul: +parseObject(val)
 
-//- Generate links with category hierarchy.
-ul#ul-base
-	+parseObject(public._data.links)
-
+h3 Links
+p Hopefully this page will be wild and sprawling over time.
+ul#ul-base: +parseObject(public._data.links)
