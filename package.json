@@ -3,28 +3,16 @@
   "version": "3.0.1",
   "description": "Homepage for Joseph Post",
   "scripts": {
-    "build": "harp compile app build",
-    "clean": "rimraf build",
-    "docker": "npm run docker:build -s && npm run docker:run -s",
-    "start": "harp server app",
-    "static": "http-server build",
-    "deploy": "harp compile app /tmp/__temp_static_content",
-    "docker:build": "docker build -q -t jcpst .",
-    "docker:run": "docker run -d --name='jcpst' -p 8080:8080 jcpst",
     "prebuild": "npm run clean -s",
-    "predocker:build": "npm run clean -s && npm run build -s",
-    "predocker:run": "docker rm -f jcpst >/dev/null 2>&1 || true",
-    "prestatic": "npm run build -s"
+    "build": "harp compile app build",
+    "deploy": "harp compile app /tmp/__temp_static_content",
+    "start": "harp server app"
   },
   "keywords": [],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
   "license": "ISC",
   "repository": "jcpst/jcpst",
   "dependencies": {
-    "http-server": "^0.8.0"
-  },
-  "devDependencies": {
-    "harp": "^0.19.0",
-    "rimraf": "^2.4.2"
+    "harp": "^0.19.0"
   }
 }

@@ -4,20 +4,8 @@ getting started:
     cd jcpst
     npm install
 
-dev:
+run dev server:
 
     npm start
-
-prod:
-
-    npm run static
-
-docker:
-
-    npm run docker
-
-list all availble `package.json` scripts:
-
-    npm run
 
 _built with [harp](http://harpjs.com/)_
