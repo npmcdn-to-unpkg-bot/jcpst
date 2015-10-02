@@ -266,34 +266,38 @@ type less and you get some extra tricks.
 Here's where the magic happens. Harp takes care of automatically converting all
 those languages for you. So you can have a structure like:
 
-    app
-    ├── assets
-    │   └── styles
-    │       └── style.styl
-    ├── blog
-    │   ├── using-harp.md
-    │   └── website-for-beginners.md
-    ├── _layout.jade
-    ├── 404.md
-    ├── about.md
-    ├── contact.md
-    ├── index.jade
-    └── resume.pdf
+```shell
+app
+├── assets
+│   └── styles
+│       └── style.styl
+├── blog
+│   ├── using-harp.md
+│   └── website-for-beginners.md
+├── _layout.jade
+├── 404.md
+├── about.md
+├── contact.md
+├── index.jade
+└── resume.pdf
+```
 
 That becomes:
 
-    app
-    ├── assets
-    │   └── styles
-    │       └── style.css
-    ├── blog
-    │   ├── using-harp.html
-    │   └── website-for-beginners.html
-    ├── 404.html
-    ├── about.html
-    ├── contact.html
-    ├── index.html
-    └── resume.pdf
+```shell
+app
+├── assets
+│   └── styles
+│       └── style.css
+├── blog
+│   ├── using-harp.html
+│   └── website-for-beginners.html
+├── 404.html
+├── about.html
+├── contact.html
+├── index.html
+└── resume.pdf
+```
 
 I suggest looking at the documentation for Harp, [here][3]. It will tell you
 everything you need to know.

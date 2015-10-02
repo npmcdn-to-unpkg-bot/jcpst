@@ -1,4 +1,9 @@
 {
+  "deployment-2": {
+    "title": "Deployment II",
+    "tags": ["build", "CI"],
+    "date": "2015-10-01"
+  },
   "build-a-static-site": {
     "title": "Build a static site",
     "tags": [ "tutorial", "beginner", "tools", "node" ],
@@ -7,7 +12,7 @@
   "npm-scala": {
     "title": "Scala (.scl) to MIDI note frequencies",
     "tags": [ "tools", "node" ],
-    "date" : "2015-09-12"
+    "date": "2015-09-12"
   },
   "deployment": {
     "title": "Deployment",
