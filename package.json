@@ -3,11 +3,14 @@
   "version": "3.0.2",
   "description": "Homepage for Joseph Post",
   "scripts": {
+    "clean": "rimraf build src/_generated",
+    "gen": "bash scripts/generate",
+    "prebuild": "npm run clean && npm run gen",
+    "predeploy": "npm run clean && npm run gen",
+    "prestart": "npm run clean && npm run gen",
+
     "build": "harp compile src build",
-    "predeploy": "mkdir src/_generated && npm run bash:gen-html && npm run bash:sh-to-md",
     "deploy": "harp compile src /tmp/__temp_static_content",
-    "bash:gen-html": "bash ./scripts/parse_fanpage > ./src/_generated/bandcamp-results.html",
-    "bash:sh-to-md": "echo '```bash' | cat - scripts/parse_fanpage | sed '$a```' > src/_generated/parse_fanpage.md",
     "start": "harp server src"
   },
   "keywords": [],
@@ -16,5 +19,8 @@
   "repository": "jcpst/jcpst",
   "dependencies": {
     "harp": "^0.19.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.4.3"
   }
 }

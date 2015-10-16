@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -x
+
+SCRIPTS_DIR="$(cd "$(dirname $0)" && pwd)"
+ROOT="$(cd "${SCRIPTS_DIR}/../" && pwd)"
+
+mkdir "${ROOT}/src/_generated"
+bash "${SCRIPTS_DIR}/parse_fanpage" > "${ROOT}/src/_generated/bandcamp-results.html"
+echo '```bash' \
+	| cat - "${SCRIPTS_DIR}/parse_fanpage" \
+	| sed '$a```' > "${ROOT}/src/_generated/parse_fanpage.md"
