@@ -1,3 +1,6 @@
 node_modules
 build
 *.swp
+
+# ignore build file
+app/_bandcamp-results.html

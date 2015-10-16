@@ -1,10 +1,12 @@
+h3 Music I've bought most recently
+include _bandcamp-results.html
+p last generated on #{new Date()}
+p The full list is #[a(href='https://bandcamp.com/josephpost') here].
 p.
 	I wanted to give you a complete list of my Bandcamp purchases in reverse 
 	chronological order. Unfortunately, Bandcamp has deprecated their API, so
-	I have resorted to using a script that transforms the most recent purchases
-	to an html file that is imported on this page.
-
-p last generated on #{new Date()}
-
-include _bandcamp-results.html
-
+	I have resorted to using a script 
+	(#[a(href='https://github.com/jcpst/jcpst/blob/master/get_latest_records.sh') source]) 
+	in my CI build that curls my Bandcamp page, transforms the most recent 
+	purchases to an html file that is imported into the Jade template for this 
+	page. This is all the albums the page will render without JavaScript.
