@@ -16,10 +16,6 @@ and whatever else seems interesting.
 My interests include analog synthesizers, Arch Linux, Bash, CI, cycling, functional 
 programming, guitars, IPAs, just intonation, node.js, vegan cooking, and walking around.
 
-Here's a list of albums I've purchased lately in reverse chronological order:
-[bandcamp](https://bandcamp.com/josephpost) (It's too bad their API is no longer
-supported).
-
 Holler if you think we should connect.
 
 [photo](/assets/images/joefresco.jpg)
