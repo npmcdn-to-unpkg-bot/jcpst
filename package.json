@@ -1,12 +1,12 @@
 {
   "name": "jcpst.com",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Homepage for Joseph Post",
   "scripts": {
-    "build": "harp compile app build",
-    "predeploy": "bash ./get_latest_records.sh > ./app/_bandcamp-results.html",
-    "deploy": "harp compile app /tmp/__temp_static_content",
-    "start": "harp server app"
+    "build": "harp compile src build",
+    "predeploy": "bash ./parse_fanpage > ./src/_bandcamp-results.html",
+    "deploy": "harp compile src /tmp/__temp_static_content",
+    "start": "harp server src"
   },
   "keywords": [],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
