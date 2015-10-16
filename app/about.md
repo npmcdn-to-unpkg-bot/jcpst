@@ -17,7 +17,7 @@ My interests include analog synthesizers, Arch Linux, Bash, CI, cycling, functio
 programming, guitars, IPAs, just intonation, node.js, vegan cooking, and walking around.
 
 Here's a list of albums I've purchased lately in reverse chronological order:
-[bandcamp](https://bandcamp.com/josephpost) (It's too bad thier API is no longer
+[bandcamp](https://bandcamp.com/josephpost) (It's too bad their API is no longer
 supported).
 
 Holler if you think we should connect.
