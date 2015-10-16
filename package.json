@@ -3,7 +3,6 @@
   "version": "3.0.1",
   "description": "Homepage for Joseph Post",
   "scripts": {
-    "prebuild": "npm run clean -s",
     "build": "harp compile app build",
     "deploy": "harp compile app /tmp/__temp_static_content",
     "start": "harp server app"
