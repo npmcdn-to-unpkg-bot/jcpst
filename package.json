@@ -4,10 +4,10 @@
   "description": "Homepage for Joseph Post",
   "scripts": {
     "build": "harp compile src build",
-    "predeploy": "npm run bash:gen-html && npm run bash:sh-to-md",
+    "predeploy": "mkdir src/_generated && npm run bash:gen-html && npm run bash:sh-to-md",
     "deploy": "harp compile src /tmp/__temp_static_content",
-    "bash:gen-html": "bash ./scripts/parse_fanpage > ./src/_bandcamp-results.html",
-    "bash:sh-to-md": "echo '```bash' | cat - scripts/parse_fanpage | sed '$a```' > src/_parse_fanpage.md",
+    "bash:gen-html": "bash ./scripts/parse_fanpage > ./src/_generated/bandcamp-results.html",
+    "bash:sh-to-md": "echo '```bash' | cat - scripts/parse_fanpage | sed '$a```' > src/_generated/parse_fanpage.md",
     "start": "harp server src"
   },
   "keywords": [],

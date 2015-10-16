@@ -2,6 +2,5 @@ node_modules
 build
 *.swp
 
-# ignore build files
-src/_bandcamp-results.html
-src/_parse_fanpage.md
+# ignore generated files
+src/_generated/

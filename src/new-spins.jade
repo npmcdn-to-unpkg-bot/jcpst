@@ -1,16 +1,18 @@
+link(href='/assets/lib/prism.css' rel='stylesheet')
+script(src='/assets/lib/prism.js')
+	
 h3 Recent album purchases
 
-include _bandcamp-results.html
+include _generated/bandcamp-results.html
 
 p last generated on #[em #{new Date()}]
 p The full list is #[a(href='https://bandcamp.com/josephpost') here].
 p.
-	I wanted to give you a complete list of my Bandcamp purchases in reverse 
+	I wanted to generate a complete list of my Bandcamp purchases in reverse 
 	chronological order. Unfortunately, Bandcamp has deprecated their API, so
-	I have resorted to using a script 
-	(#[a(href='https://github.com/jcpst/jcpst/blob/master/get_latest_records.sh') source]) 
-	in my CI build that curls and transforms the response from my Bandcamp profile.
+	I have resorted to using a script (see below) in my CI build that curls and 
+	transforms the response from my Bandcamp profile, which only renders first 
+	results without JavaScript.
 
-link(href='/assets/lib/prism.css' rel='stylesheet')
-script(src='/assets/lib/prism.js')
-!= partial('_parse_fanpage')
+!= partial('_generated/parse_fanpage')
+
