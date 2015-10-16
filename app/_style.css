@@ -1,0 +1,32 @@
+a, a:active, a:hover, a:visited {
+  color:black;
+}
+
+body {
+  background:lemonchiffon;
+  max-width:700px;
+}
+
+body > ul {
+  padding-left:0;
+}
+
+code {
+  background:#272727;
+  color:white;
+  border-radius:3px;
+}
+
+img {
+  max-width:100%;
+}
+
+li > ul {
+  padding-left: 1.5em
+}
+
+.top {
+  padding-top:5px;
+  border-top:solid 1px;
+}
+

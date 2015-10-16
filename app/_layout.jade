@@ -3,17 +3,8 @@ html
 	head
 		meta(charset='UTF-8')
 		meta(name='viewport' content='width=device-width,user-scalable=no')
-
-		//- There is so little styling that I'll just save the extra
-		//- HTTP request and they can live in here.
-		style.
-			a,a:active,a:hover,a:visited{color:black;}
-			body{background:lemonchiffon;max-width:700px;}
-			code{background:#272727;color:white;border-radius:3px;}
-			img{max-width:100%;}
-			.top{padding-top:5px;border-top:solid 1px;}
-			#ul-base{padding-left:0;}
-
+		style
+			include _style.css
 		if current.path[0] == 'blog' && current.source !== 'index'
 			link(rel='stylesheet' href='/assets/lib/prism.css')
 			script(src='/assets/lib/prism.js')
@@ -26,7 +17,6 @@ html
 			|| #[a(href='/about') about]
 			|| #[a(href='/links') links]
 			|| #[a(href='/contact') contact]
-
 		if current.path[0] == 'blog' && current.source !== 'index'
 			h2= title
 			em= date
