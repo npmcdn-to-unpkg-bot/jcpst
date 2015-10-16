@@ -4,7 +4,7 @@
   "description": "Homepage for Joseph Post",
   "scripts": {
     "build": "harp compile src build",
-    "predeploy": "bash ./parse_fanpage > ./src/_bandcamp-results.html",
+    "predeploy": "bash ./scripts/parse_fanpage > ./src/_bandcamp-results.html",
     "deploy": "harp compile src /tmp/__temp_static_content",
     "start": "harp server src"
   },
