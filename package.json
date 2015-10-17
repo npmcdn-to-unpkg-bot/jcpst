@@ -7,7 +7,7 @@
     "gen": "bash scripts/generate",
     "prebuild": "npm run clean && npm run gen",
     "predeploy": "npm run clean && npm run gen",
-    "prestart": "npm run clean && npm run gen",
+    "prestart": "npm run gen -s",
 
     "build": "harp compile src build",
     "deploy": "harp compile src /tmp/__temp_static_content",

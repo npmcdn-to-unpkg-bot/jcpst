@@ -1,10 +1,14 @@
 #!/bin/bash
 
-set -x
-
 SCRIPTS_DIR="$(cd "$(dirname $0)" && pwd)"
 ROOT="$(cd "${SCRIPTS_DIR}/../" && pwd)"
 
+if [ -d "${ROOT}/src/_generated" ]; then
+	echo "code already generated, run \`npm run clean\` first"
+	exit 0
+fi
+
+echo "generating pages..."
 mkdir "${ROOT}/src/_generated"
 bash "${SCRIPTS_DIR}/parse_fanpage" > "${ROOT}/src/_generated/bandcamp-results.html"
 echo '```bash' \
