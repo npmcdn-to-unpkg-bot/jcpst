@@ -4,11 +4,10 @@
   "description": "Homepage for Joseph Post",
   "scripts": {
     "clean": "rimraf build src/_generated",
-    "gen": "bash scripts/generate",
+    "gen": "shjs scripts/generate.js",
     "prebuild": "npm run clean && npm run gen",
     "predeploy": "npm run clean && npm run gen",
-    "prestart": "npm run gen -s",
-
+    "prestart": "npm run gen",
     "build": "harp compile src build",
     "deploy": "harp compile src /tmp/__temp_static_content",
     "start": "harp server src"
@@ -21,6 +20,7 @@
     "harp": "^0.19.0"
   },
   "devDependencies": {
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.4.3",
+    "shelljs": "^0.5.3"
   }
 }
