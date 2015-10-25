@@ -9,13 +9,12 @@ let results = [genDir, '/bandcamp-results.html'].join('')
 let fanPageMd = [genDir, '/parse_fanpage.md'].join('')
 
 if (test('-d', genDir)) {
-  echo('code already generated, run `npm run clean` first')
+  echo('already generated, run `npm run clean` first')
   exit(0)
 }
 
-echo('generating pages')
+echo('generating html and md...')
 mkdir(genDir)
-
-;(exec('bash ' + fanPage, {silent: true}).output).to(results)
+;(exec('bash ' + fanPage, { silent: true }).output).to(results)
 ;('```bash\n' + cat(fanPage) + '```').to(fanPageMd)
 
