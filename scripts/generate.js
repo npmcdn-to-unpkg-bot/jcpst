@@ -1,18 +1,21 @@
 'use strict'
 
+const path = require('path')
+const EOL = require('os').EOL
 require('shelljs/global')
 
-let genDir = `${__dirname}/../src/_generated`
-let fanPage = `${__dirname}/parse_fanpage`
-let results = `${genDir}/bandcamp-results.html`
-let fanPageMd = `${genDir}/parse_fanpage.md`
+
+const genDir = path.normalize(`${__dirname}/../src/_generated`)
+const fanPage = path.join(__dirname, 'parse_fanpage')
+const results = path.join(genDir, 'bandcamp-results.html')
+const fanPageMd = path.join(genDir, 'parse_fanpage.md')
 
 if (test('-d', genDir)) {
   echo('already generated, run `npm run clean` first')
   exit(0)
 }
 
-let codeBlock = `\`\`\`bash\n${cat(fanPage)}\`\`\``
+const codeBlock = '```bash' + EOL + cat(fanPage) + '```'
 
 echo('generating html and md...')
 mkdir(genDir)
