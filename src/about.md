@@ -13,10 +13,12 @@ for seven years, everything from the Avett Bros to Gillie Da Kid
 These days I'm working as a programmer, composing music, hanging with the fam,
 and whatever else seems interesting.
 
-My interests include analog synthesizers, Arch Linux, Bash, CI, cycling, functional 
-programming, guitars, IPAs, just intonation, node.js, vegan cooking, and walking around.
+My interests include analog synthesizers, Arch Linux, craft beer 
+(especially IPAs), cycling, DevOps, functional programming, guitars, 
+just intonation, Node.js, shell scripting, tube amps, vegan cooking, 
+wandering around, Zsh...
 
-Holler if you think we should connect.
+Ping me if you think we should connect.
 
 [photo](/assets/images/joefresco.jpg)
 
