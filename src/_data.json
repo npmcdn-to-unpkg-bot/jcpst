@@ -1,19 +1,21 @@
 { "links" :
   { "Programming" :
-    { "Manuals" :
-      { "Bash" : "https://www.gnu.org/software/bash/manual/bashref.html"
+    { "Reference" :
+      { "ArchWiki" : "https://wiki.archlinux.org/"
+      , "Bash" : "https://www.gnu.org/software/bash/manual/bashref.html"
       , "Gawk" : "http://www.gnu.org/software/gawk/manual/"
+      , "Unix Toolbox": "http://cb.vu/unixtoolbox.xhtml"
       }
     , "Tools" :
       { "Web Apps" :
-        { "Regex101" : "https://regex101.com/"
+        { "DevDocs" : "http://devdocs.io/"
+        , "explainshell.com" : "http://explainshell.com/"
+        , "Regex101" : "https://regex101.com/"
         , "ShellCheck" : "http://www.shellcheck.net/"
         , "StackEdit" : "https://stackedit.io/"
         }
       , "Oh My Zsh" : "http://ohmyz.sh/"
       }
-    , "ArchWiki" : "https://wiki.archlinux.org/"
-    , "DevDocs" : "http://devdocs.io/"
     }
   , "Music" :
     { "DAWs" :
@@ -25,6 +27,7 @@
       { "ChucK": "http://chuck.cs.princeton.edu/"
       , "PureData": "http://puredata.info/"
       , "SuperCollider" : "http://supercollider.github.io/"
+      , "Alda" : "https://github.com/alda-lang/alda"
       }
     , "TapeOp" : "http://tapeop.com/"
     }
