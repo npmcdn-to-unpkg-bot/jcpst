@@ -1,7 +1,9 @@
-### Rappers I've worked with.
+### Recording Credits
+
+#### Rappers
 
 * Black Chill
-* "Boo" Sledge
+* Boo Sledge
 * Draytoxic
 * Gillie Da Kid
 * Lid Bux
@@ -9,9 +11,9 @@
 * Metro Boomin
 * Star B
 * Tamba Hali
-* "Tank" Tyler
+* Tank Tyler
 
-### Producers I've worked with.
+#### Producers
 
 * Colin Mahoney (Get Up Kids)
 * Joe Comparato (The Urge)
@@ -19,7 +21,7 @@
 * Rug (Meek Mill, Gillie Da Kid)
 * Sonny Digital (Kanye West, Ace Hood, Future, 2 Chainz, Wiz Khalifa)
 
-### Bands / Musicians I've recorded.
+#### Bands / Musicians
 
 * Buckethead
 * Galactic
