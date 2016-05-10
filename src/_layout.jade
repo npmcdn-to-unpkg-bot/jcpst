@@ -1,26 +1,34 @@
 doctype html
 html
-	head
-		meta(charset='UTF-8')
-		meta(name='viewport' content='width=device-width,user-scalable=no')
-		style
-			include _style.css
-		if current.path[0] == 'blog' && current.source !== 'index'
-			link(rel='stylesheet' href='/assets/lib/prism.css')
-			script(src='/assets/lib/prism.js')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width')
+    link(href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css')
+    link(href='/style.css' rel='stylesheet' type='text/css')
 
-	body
-		h1: a(href='/' style='text-decoration:none') Joseph Post
-		div.
-			#[a(href='/music') music]
-			|| #[a(href='/about') about]
-			|| #[a(href='/links') links]
-			|| #[a(href='/contact') contact]
-		if current.path[0] == 'blog' && current.source !== 'index'
-			h2= title
-			em= date
-			!= yield
-			strong %%%
-		else
-			!= yield
-
+    if current.path[0] == 'blog' && current.source !== 'index'
+      link(rel='stylesheet' href='/assets/lib/prism.css')
+      script(src='/assets/lib/prism.js')
+      style.
+        code[class*="language-"],
+        pre[class*="language-"] {
+          word-wrap: normal;
+        }
+  body
+    .wrapper
+      .container
+        if current.path[0] !== 'index'
+          p: a(href='/') <- home
+          hr
+          br
+        if current.path[0] == 'blog' && current.source !== 'index' 
+          h2= title
+          em= date
+          != yield
+          strong %%%
+        else
+          != yield
+        br
+      .push
+    .footer
+      h6: em.top (#[a(href='https://github.com/jcpst/jcpst') source])
