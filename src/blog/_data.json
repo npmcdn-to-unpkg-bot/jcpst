@@ -14,21 +14,6 @@
     "tags": [ "tools", "node" ],
     "date": "2015-09-12"
   },
-  "deployment": {
-    "title": "Deployment",
-    "tags": ["build", "shell"],
-    "date": "2015-08-19"
-  },
-  "gulp-vs-metalsmith": {
-    "title": "Gulp vs Metalsmith",
-    "tags": ["build", "shootout"],
-    "date": "2015-08-19"
-  },
-  "using-harp": {
-    "title": "Using Harp",
-    "tags": ["review"],
-    "date": "2015-08-14"
-  },
   "feed": {
     "title": "feed",
     "layout": false
