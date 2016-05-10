@@ -1,7 +1,7 @@
 h3 Weblog
 a(href='/blog/feed.xml') rss feed
 h1
-table
+table.table
 	for post, slug in public.blog._data
 		unless post.title == 'feed'
 			tr
