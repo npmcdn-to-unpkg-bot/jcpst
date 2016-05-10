@@ -2,7 +2,7 @@
 mixin parseObject(obj)
 	each val, key in obj
 		if typeof val === 'string'
-			li: a(href= val)= key
+			li: a(href=val)= key
 		else if typeof val === 'object'
 			li
 				strong= key
