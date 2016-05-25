@@ -3,10 +3,9 @@
   "version": "3.0.2",
   "description": "Homepage for Joseph Post",
   "scripts": {
-    "build": "node run build",
-    "clean": "node run clean",
+    "build": "harp compile src public",
     "deploy": "node run deploy",
-    "start": "node run start"
+    "start": "harp server src"
   },
   "keywords": [],
   "author": "Joseph Post <joe@jcpst.com> (http://jcpst.com)",
@@ -14,7 +13,6 @@
   "repository": "jcpst/jcpst",
   "devDependencies": {
     "harp": "^0.20.3",
-    "run-task": "^1.0.2",
     "shelljs": "^0.6.0"
   }
 }

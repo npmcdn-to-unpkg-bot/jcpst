@@ -1,6 +1,5 @@
-### Recording Credits
-
-#### Rappers
+Rappers
+-------
 
 * Black Chill
 * Boo Sledge
@@ -13,15 +12,17 @@
 * Tamba Hali
 * Tank Tyler
 
-#### Producers
+Producers
+---------
 
-* Colin Mahoney (Get Up Kids)
-* Joe Comparato (The Urge)
-* Pete Matthews (B-52's, George Thorogood)
-* Rug (Meek Mill, Gillie Da Kid)
-* Sonny Digital (Kanye West, Ace Hood, Future, 2 Chainz, Wiz Khalifa)
+* Colin Mahoney (_Get Up Kids_)
+* Joe Comparato (_The Urge_)
+* Pete Matthews (_B-52's, George Thorogood_)
+* Rug (_Meek Mill, Gillie Da Kid_)
+* Sonny Digital (_Kanye West, Ace Hood, Future, 2 Chainz, Wiz Khalifa_)
 
-#### Bands / Musicians
+Bands / Musicians
+-----------------
 
 * Buckethead
 * Galactic

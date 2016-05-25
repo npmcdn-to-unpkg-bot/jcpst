@@ -1,34 +1,22 @@
-doctype html
+doctype
 html
-  head
-    meta(charset='UTF-8')
-    meta(name='viewport' content='width=device-width')
-    link(href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css')
-    link(href='/style.css' rel='stylesheet' type='text/css')
-
-    if current.path[0] == 'blog' && current.source !== 'index'
-      link(rel='stylesheet' href='/assets/lib/prism.css')
-      script(src='/assets/lib/prism.js')
-      style.
-        code[class*="language-"],
-        pre[class*="language-"] {
-          word-wrap: normal;
-        }
-  body
-    .wrapper
-      .container
-        if current.path[0] !== 'index'
-          p: a(href='/') <- home
-          hr
-          br
-        if current.path[0] == 'blog' && current.source !== 'index' 
-          h2= title
-          em= date
-          != yield
-          strong %%%
-        else
-          != yield
-        br
-      .push
-    .footer
-      h6: em.top (#[a(href='https://github.com/jcpst/jcpst') source])
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width')
+        link(type='text/css' rel='stylesheet' href='/assets/style/style.css')
+    body
+        .wrapper
+            .container
+                .header-border
+                    h1: a.title(href='/') jcpst.com
+                    p Home of Joseph Post on the world wide web.
+                .nav-links
+                    each link in ['about', 'contact', 'music', 'weblog']
+                        a(href='/' + link class='#{current.source == link ? "selected" : ""}')= link
+                hr
+                != yield
+                br
+            .push
+        .footer
+            .container
+                em last deployment: #{new Date()} (#[a(href='https://gitlab.com/jcpst/jcpst') source])

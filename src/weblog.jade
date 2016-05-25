@@ -1,0 +1,17 @@
+//- 
+- function excerpt(content) {
+-     if (content.indexOf('<!-- body -->') == -1) {
+-         return '';
+-     } else {
+-         return content.split('<!-- body -->')[0];
+-     }
+- }
+
+ul
+    each blog in _(public.blog._contents).reverse().value()
+        - var date = blog.replace(/\.[^/.]+$/, '')
+        unless date === 'index'
+            li
+                a(href='/blog/#{date}')= date
+                - var stripTags = /<\/?h1[^>]*>/
+                != ' ' + excerpt(partial('/blog/' + date).replace(stripTags, ''))

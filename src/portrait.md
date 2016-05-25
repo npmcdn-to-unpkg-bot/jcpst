@@ -1,0 +1,1 @@
+![photo](/assets/images/joefresco.jpg)
