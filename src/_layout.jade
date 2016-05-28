@@ -11,7 +11,7 @@ html
                     h1: a.title(href='/') jcpst.com
                     p Home of Joseph Post on the world wide web.
                 .nav-links
-                    each link in ['about', 'contact', 'music', 'weblog']
+                    each link in navlinks
                         a(href='/' + link class='#{current.source == link ? "selected" : ""}')= link
                 hr
                 != yield
