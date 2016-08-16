@@ -3,20 +3,17 @@ html
     head
         meta(charset='UTF-8')
         meta(name='viewport' content='width=device-width')
-        link(type='text/css' rel='stylesheet' href='/assets/style/style.css')
-    body
-        .wrapper
-            .container
-                .header-border
-                    h1: a.title(href='/') jcpst.com
-                    p Home of Joseph Post on the world wide web.
-                .nav-links
-                    each link in navlinks
-                        a(href='/' + link class='#{current.source == link ? "selected" : ""}')= link
-                hr
-                != yield
-                br
-            .push
-        .footer
-            .container
-                em last deployment: #{new Date()} (#[a(href='https://github.com/jcpst/jcpst') source])
+        link(type='text/css' rel='stylesheet' href='https://npmcdn.com/hack@0.5.2')
+    body.hack
+        .container
+            h1 jcpst.com - Home of Joseph Post on the world wide web.
+            //- .nav-links
+            //-     each link in navlinks
+            //-         a(href='/' + link class='#{current.source == link ? "selected" : ""}')= link
+            //-         =' '
+            != yield
+            hr
+        .push
+    .footer
+        .container
+            em last deployment: #{new Date()} (#[a(href='https://github.com/jcpst/jcpst') source])
