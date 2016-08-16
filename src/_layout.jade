@@ -3,14 +3,11 @@ html
     head
         meta(charset='UTF-8')
         meta(name='viewport' content='width=device-width')
-        link(type='text/css' rel='stylesheet' href='https://npmcdn.com/hack@0.5.2')
-    body.hack
-        .container
+        link(type='text/css' rel='stylesheet' href='https://npmcdn.com/hack/dist/hack.css')
+        link(type='text/css' rel='stylesheet' href='https://npmcdn.com/hack/dist/standard.css')
+    body.standard
+        .main.container
             h1 jcpst.com - Home of Joseph Post on the world wide web.
-            //- .nav-links
-            //-     each link in navlinks
-            //-         a(href='/' + link class='#{current.source == link ? "selected" : ""}')= link
-            //-         =' '
             != yield
             hr
         .push
