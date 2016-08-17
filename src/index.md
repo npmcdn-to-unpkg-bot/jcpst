@@ -5,11 +5,13 @@
 
 ## open-source projects
 
+- [rest-api-cli][rest-api-cli] - A simple node REST API boilerplate
 - [run-task][1] - A simple-as-possible node task runner
 - [rsvp][2] - An experiment to learn about building a REST API using Rust
 - [jcpst.com][3] - This site, generated using Harp.js
 - [scl-to-frequency][4] - Converts a Scala file (.scl) to a javascript array of frequencies
 
+[rest-api-cli]: https://www.npmjs.com/package/rest-api-cli
 [1]: https://github.com/jcpst/run-task
 [2]: https://github.com/jcpst/rsvp
 [3]: https://github.com/jcpst/jcpst
