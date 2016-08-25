@@ -5,15 +5,17 @@
 
 ## Open-Source Projects
 
-- [rest-api-cli][1] - A simple node REST API boilerplate
-- [run-task][2] - A simple-as-possible node task runner
+- [dungeon][1] - A console game to get familiar with java
+- [rest-api-cli][2] - A simple node REST API boilerplate
 - [rsvp][3] - An experiment to learn about building a REST API using Rust
-- [scl-to-frequency][4] - Converts a Scala file (.scl) to a javascript array of frequencies
+- [run-task][4] - A simple-as-possible node task runner
+- [scl-to-frequency][5] - Converts a Scala file (.scl) to a javascript array of frequencies
 
-[1]: https://www.npmjs.com/package/rest-api-cli
-[2]: https://github.com/jcpst/run-task
+[1]: https://github.com/jcpst/dungeon
+[2]: https://www.npmjs.com/package/rest-api-cli
 [3]: https://github.com/jcpst/rsvp
-[4]: https://github.com/jcpst/scl-to-frequency
+[4]: https://github.com/jcpst/run-task
+[5]: https://github.com/jcpst/scl-to-frequency
 
 ## Musical Compositions
 
