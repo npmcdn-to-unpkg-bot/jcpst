@@ -17,19 +17,24 @@
 [4]: https://github.com/jcpst/run-task
 [5]: https://github.com/jcpst/scl-to-frequency
 
-## Musical Compositions
+## Musical Output
 
-- [soundcloud][6]
-- [jpacks][7] *2015*
-- [your face][8] *2009-2010*
-- [monitors][9] *2004-07*
-- [senator bigsby and the screws][10] *2001-04*
+- [soundcloud page][6]
+- [bandcamp page][7]
+
+### bands
+
+- [jpacks][8] *2015*
+- [your face][9] *2009-2010*
+- [monitors][10] *2004-07*
+- [senator bigsby and the screws][11] *2001-04*
 
 [6]: https://soundcloud.com/josephpost
-[7]: https://archive.org/details/JPACKSRPM2015Mp3
-[8]: http://yourface.bandcamp.com
-[9]: http://monitors.bandcamp.com
-[10]: http://sbats.bandcamp.com
+[7]: https://josephpost.bandcamp.com/
+[8]: https://archive.org/details/JPACKSRPM2015Mp3
+[9]: http://yourface.bandcamp.com
+[10]: http://monitors.bandcamp.com
+[11]: http://sbats.bandcamp.com
 
 ## Recording Credits
 
@@ -73,11 +78,7 @@
 * Trombone Shorty
 * Yonder Mountain String Band
 
-## About
-
-I'm a programmer and composer in Kansas City.
-
-### Interests include: 
+## Interests 
 
 - analog synthesizers
 - Arch Linux
